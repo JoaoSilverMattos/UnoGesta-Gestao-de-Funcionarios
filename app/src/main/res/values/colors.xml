@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>          <!-- Branco -->
+    <color name="blue">#007BFF</color>           <!-- Azul principal dos textos e linha -->
+    <color name="gray">#555555</color>           <!-- Cinza escuro do texto "Funcionários Registrados" -->
+    <color name="light_gray">#AAAAAA</color>     <!-- Cinza claro do texto "Total: 0" -->
+    <color name="green">#4CAF50</color>
+
+</resources>

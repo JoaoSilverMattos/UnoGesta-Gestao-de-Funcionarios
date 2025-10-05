@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UnoGesta</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_form_cadastro">FormCadastro</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_registrar">RegistrarActivity</string>
+    <string name="title_activity_tabela">TabelaActivity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+</resources>

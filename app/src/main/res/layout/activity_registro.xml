@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvTituloRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar Funcionário"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Nome -->
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Nome"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Idade -->
+        <EditText
+            android:id="@+id/etIdade"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Idade"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Sexo -->
+        <EditText
+            android:id="@+id/etSexo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Sexo"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Função -->
+        <EditText
+            android:id="@+id/etFuncao"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Função"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Botão Registrar -->
+        <Button
+            android:id="@+id/btRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="REGISTRAR"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@drawable/button_blue_gradient"/>
+
+    </LinearLayout>
+</ScrollView>

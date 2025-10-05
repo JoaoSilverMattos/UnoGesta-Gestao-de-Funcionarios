@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/item_funcionario_background"
+    android:layout_marginBottom="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Coluna esquerda: Nome e Idade -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNomeItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvIdadeItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idade"
+                android:textColor="#555555"/>
+        </LinearLayout>
+
+        <!-- Coluna direita: Sexo e Função -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSexoItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexo"
+                android:textColor="#555555"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/tvFuncaoItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Função"
+                android:textColor="#555555"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
